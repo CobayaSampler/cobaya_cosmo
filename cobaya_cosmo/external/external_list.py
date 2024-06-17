@@ -184,4 +184,59 @@ cmb = {
             "min_version": "0.1.1",
         },
     },
+    # MOCK/FUTURE ########################################################################
+    "mock_cmb_SO": {
+        "class": "cobaya_mock_cmb.MockSO",
+        "desc": "Mock Simons Observatory likelihood following Sailer, Schaan and Ferraro 2020, based on MontePython's 'Likelihood_mock_cmb' (config by J. Muñoz).",
+        "url": "https://github.com/misharash/cobaya_mock_cmb",
+        "biburl": "https://arxiv.org/abs/2108.02747",
+        "package_install": {
+            "github_repository": "misharash/cobaya_mock_cmb",
+        },
+    },
+   "mock_cmb_SO.baseline": {
+        "class": "cobaya_mock_cmb.MockSOBaseline",
+        "desc": "Mock Simons Observatory likelihood with TT, EE 'deproj0' noise curves (baseline sensitivity), based on MontePython's 'Likelihood_mock_cmb'",
+        "url": "https://github.com/misharash/cobaya_mock_cmb",
+        "biburl": "https://arxiv.org/abs/2108.02747",
+        "package_install": {
+            "github_repository": "misharash/cobaya_mock_cmb",
+        },
+    },
+   "mock_cmb_SO.goal": {
+        "class": "cobaya_mock_cmb.MockSOGoal",
+        "desc": "Mock Simons Observatory likelihood with TT, EE 'deproj0' noise curves (goal sensitivity), based on MontePython's 'Likelihood_mock_cmb'",
+        "url": "https://github.com/misharash/cobaya_mock_cmb",
+        "biburl": "https://arxiv.org/abs/2108.02747",
+        "package_install": {
+            "github_repository": "misharash/cobaya_mock_cmb",
+        },
+    },
+   "mock_cmb_CMBS4": {
+        "class": "cobaya_mock_cmb.MockCMBS4",
+        "desc": "Mock CMB-S4 likelihood following the science book, based on MontePython's 'Likelihood_mock_cmb' (config by J. Muñoz).",
+        "url": "https://github.com/misharash/cobaya_mock_cmb",
+        "biburl": "https://arxiv.org/abs/2108.02747",
+        "package_install": {
+            "github_repository": "misharash/cobaya_mock_cmb",
+        },
+    },
+   "mock_cmb_CMBS4.sens0": {
+        "class": "cobaya_mock_cmb.MockCMBS4sens0",
+        "desc": "Mock CMB-S4 likelihood with TT, EE 'deproj0' noise curves, based on MontePython's 'Likelihood_mock_cmb'.",
+        "url": "https://github.com/misharash/cobaya_mock_cmb",
+        "biburl": "https://arxiv.org/abs/2108.02747",
+        "package_install": {
+            "github_repository": "misharash/cobaya_mock_cmb",
+        },
+    },
+   "mock_cmb_Planck": {
+        "class": "cobaya_mock_cmb.MockCMBS4sens0",
+        "desc": "Mock Planck likelihood following Munoz et al 2016 with f_sky=0.2 (fraction independent of SO and CMB-S4), based on MontePython's 'Likelihood_mock_cmb'.",
+        "url": "https://github.com/misharash/cobaya_mock_cmb",
+        "biburl": "https://arxiv.org/abs/2108.02747",
+        "package_install": {
+            "github_repository": "misharash/cobaya_mock_cmb",
+        },
+    },
 }
