@@ -196,7 +196,7 @@ cmb = {
     },
    "mock_cmb_SO.baseline": {
         "class": "cobaya_mock_cmb.MockSOBaseline",
-        "desc": "Mock Simons Observatory likelihood with TT, EE 'deproj0' noise curves (baseline sensitivity), based on MontePython's 'Likelihood_mock_cmb'",
+        "desc": "Mock Simons Observatory likelihood with TT, EE 'deproj0' noise curves (baseline sensitivity), based on MontePython's 'Likelihood_mock_cmb'.",
         "url": "https://github.com/misharash/cobaya_mock_cmb",
         "biburl": "https://arxiv.org/abs/2108.02747",
         "package_install": {
@@ -205,7 +205,7 @@ cmb = {
     },
    "mock_cmb_SO.goal": {
         "class": "cobaya_mock_cmb.MockSOGoal",
-        "desc": "Mock Simons Observatory likelihood with TT, EE 'deproj0' noise curves (goal sensitivity), based on MontePython's 'Likelihood_mock_cmb'",
+        "desc": "Mock Simons Observatory likelihood with TT, EE 'deproj0' noise curves (goal sensitivity), based on MontePython's 'Likelihood_mock_cmb'.",
         "url": "https://github.com/misharash/cobaya_mock_cmb",
         "biburl": "https://arxiv.org/abs/2108.02747",
         "package_install": {
