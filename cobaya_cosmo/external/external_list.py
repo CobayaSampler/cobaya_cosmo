@@ -112,7 +112,7 @@ cmb = {
     # SPT ################################################################################
     "sptpol_2017.TEEE": {
         "class": "sptpol_2017.TEEE",
-        "desc": "...",
+        "desc": "Unoffical python-native CMB likelihood for SPTPol TE+EE. Adapted from Fortran likelihood code https://lambda.gsfc.nasa.gov/product/spt/sptpol_lh_2017_get.html",
         "url": "https://github.com/xgarrido/spt_likelihoods",
         "biburl": "https://arxiv.org/abs/1707.09353",
         "package_install": {
@@ -121,7 +121,7 @@ cmb = {
     },
     "spt3g_2020.TEEE": {
         "class": "spt3g_2020.TEEE",
-        "desc": "...",
+        "desc": "Unoffical python-native CMB likelihood for SPT-3G TE+EE. Adapted from Fortran likelihood code https://pole.uchicago.edu/public/data/dutcher21/SPT3G_2018_EETE_likelihood.tar.gz",
         "url": "https://github.com/xgarrido/spt_likelihoods",
         "biburl": "https://arxiv.org/abs/2101.01684",
         "package_install": {
@@ -130,7 +130,7 @@ cmb = {
     },
     "spt_hiell_2020.TT": {
         "class": "spt_hiell_2020.TT",
-        "desc": "...",
+        "desc": "Unofficial python-native CMB likelihood for SPT likelihood (SPTpol+SZ l=2000-11000 power spectrum). Adapted from Fortran likelihood code https://lambda.gsfc.nasa.gov/product/spt/spt_ps_2020_get.html",
         "url": "https://github.com/xgarrido/spt_likelihoods",
         "biburl": "https://arxiv.org/abs/2002.06197",
         "package_install": {
@@ -139,7 +139,7 @@ cmb = {
     },
     "spt3g_2022.TT": {
         "class": "spt3g_2022.TT",
-        "desc": "...",
+        "desc": "Unofficial python-native CMB likelihood for SPT-3G TT spectra. Adapted from Fortran likelihood code https://pole.uchicago.edu/public/data/balkenhol22/SPT3G_2018_TTTEEE_public_likelihood.zip",
         "url": "https://github.com/xgarrido/spt_likelihoods",
         "biburl": "https://arxiv.org/abs/2212.05642",
         "package_install": {
@@ -148,7 +148,7 @@ cmb = {
     },
     "spt3g_2022.TE": {
         "class": "spt3g_2022.TE",
-        "desc": "",
+        "desc": "Unofficial python-native CMB likelihood for SPT-3G TE spectra. Adapted from Fortran likelihood code https://pole.uchicago.edu/public/data/balkenhol22/SPT3G_2018_TTTEEE_public_likelihood.zip",
         "url": "https://github.com/xgarrido/spt_likelihoods",
         "biburl": "https://arxiv.org/abs/2212.05642",
         "package_install": {
@@ -157,7 +157,7 @@ cmb = {
     },
     "spt3g_2022.EE": {
         "class": "spt3g_2022.EE",
-        "desc": "...",
+        "desc": "Unofficial python-native CMB likelihood for SPT-3G EE spectra. Adapted from Fortran likelihood code https://pole.uchicago.edu/public/data/balkenhol22/SPT3G_2018_TTTEEE_public_likelihood.zip",
         "url": "https://github.com/xgarrido/spt_likelihoods",
         "biburl": "https://arxiv.org/abs/2212.05642",
         "package_install": {
@@ -166,7 +166,7 @@ cmb = {
     },
     "spt3g_2022.TTTEEE": {
         "class": "spt3g_2022.TTTEEE",
-        "desc": "...",
+        "desc": "Unofficial python-native CMB likelihood for SPT-3G TT+TE+EE spectra. Adapted from Fortran likelihood code https://pole.uchicago.edu/public/data/balkenhol22/SPT3G_2018_TTTEEE_public_likelihood.zip",
         "url": "https://github.com/xgarrido/spt_likelihoods",
         "biburl": "https://arxiv.org/abs/2212.05642",
         "package_install": {
