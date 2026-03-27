@@ -2,9 +2,9 @@ cmb = {
     # Planck #############################################################################
     "planck_PR4_lollipop.lowlE": {
         "class": "planck_2020_lollipop.lowlE",
-        "desc": "sth...",
+        "desc": "Planck PR4 (NPIPE) EE low-multipole Lollipop likelihood by M. Tristram et al.",
         "url": "https://github.com/planck-npipe/lollipop",
-        "biburl": "http...",
+        "biburl": ["https://arxiv.org/abs/2010.01139", "https://arxiv.org/abs/2112.07961"],
         "package_install": {
             "pip": "planck_2020_lollipop",
             "min_version": "4.1.1",
@@ -12,9 +12,9 @@ cmb = {
     },
     "planck_PR4_lollipop.lowlB": {
         "class": "planck_2020_lollipop.lowlB",
-        "desc": "sth...",
+        "desc": "Planck PR4 (NPIPE) BB low-multipole Lollipop likelihood by M. Tristram et al.",
         "url": "https://github.com/planck-npipe/lollipop",
-        "biburl": "http...",
+        "biburl": ["https://arxiv.org/abs/2010.01139", "https://arxiv.org/abs/2112.07961"],
         "package_install": {
             "pip": "planck_2020_lollipop",
             "min_version": "4.1.1",
@@ -22,9 +22,9 @@ cmb = {
     },
     "planck_PR4_lollipop.lowlEB": {
         "class": "planck_2020_lollipop.lowlEB",
-        "desc": "sth...",
+        "desc": "Planck PR4 (NPIPE) EB low-multipole Lollipop likelihood by M. Tristram et al.",
         "url": "https://github.com/planck-npipe/lollipop",
-        "biburl": "http...",
+        "biburl": ["https://arxiv.org/abs/2010.01139", "https://arxiv.org/abs/2112.07961"],
         "package_install": {
             "pip": "planck_2020_lollipop",
             "min_version": "4.1.1",
@@ -32,9 +32,9 @@ cmb = {
     },
     "planck_PR4_hillipop.TT": {
         "class": "planck_2020_hillipop.TT",
-        "desc": "sth...",
+        "desc": "Planck PR4 (NPIPE) TT high-multipole HiLLiPOP likelihood by M. Tristram et al.",
         "url": "https://github.com/planck-npipe/hillipop",
-        "biburl": "http...",
+        "biburl": "https://arxiv.org/abs/2309.10034",
         "package_install": {
             "pip": "planck_2020_hillipop",
             "min_version": "4.2.2",
@@ -42,9 +42,9 @@ cmb = {
     },
     "planck_PR4_hillipop.TE": {
         "class": "planck_2020_hillipop.TE",
-        "desc": "sth...",
+        "desc": "Planck PR4 (NPIPE) TE high-multipole HiLLiPOP likelihood by M. Tristram et al.",
         "url": "https://github.com/planck-npipe/hillipop",
-        "biburl": "http...",
+        "biburl": "https://arxiv.org/abs/2309.10034",
         "package_install": {
             "pip": "planck_2020_hillipop",
             "min_version": "4.2.2",
@@ -52,9 +52,9 @@ cmb = {
     },
     "planck_PR4_hillipop.EE": {
         "class": "planck_2020_hillipop.EE",
-        "desc": "sth...",
+        "desc": "Planck PR4 (NPIPE) EE high-multipole HiLLiPOP likelihood by M. Tristram et al.",
         "url": "https://github.com/planck-npipe/hillipop",
-        "biburl": "http...",
+        "biburl": "https://arxiv.org/abs/2309.10034",
         "package_install": {
             "pip": "planck_2020_hillipop",
             "min_version": "4.2.2",
@@ -62,9 +62,9 @@ cmb = {
     },
     "planck_PR4_hillipop.TTTEEE": {
         "class": "planck_2020_hillipop.TTTEEE",
-        "desc": "sth...",
+        "desc": "Planck PR4 (NPIPE) TT, TE, EE high-multipole HiLLiPOP likelihood by M. Tristram et al.",
         "url": "https://github.com/planck-npipe/hillipop",
-        "biburl": "http...",
+        "biburl": "https://arxiv.org/abs/2309.10034",
         "package_install": {
             "pip": "planck_2020_hillipop",
             "min_version": "4.2.2",
